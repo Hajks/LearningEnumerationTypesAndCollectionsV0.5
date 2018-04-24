@@ -64,6 +64,14 @@ namespace LearningEnumerationTypesAndCollectionsV0._5
             if (shoeCloset.Contains(secondShoe))
                 Console.WriteLine("Wow, cud się wydarzył!");
 
+            List<Shoe> shoeCloset2 = new List<Shoe>(); //It's same list like above, but initialized in other way. Well it's a lot easier to read in this way.
+            new Shoe() { Style = Style.Sneakers, Color = "Czarny" };
+            new Shoe() { Style = Style.Clogs, Color = "Brązowy" };
+            new Shoe() { Style = Style.Wingtips, Color = "Biały" };
+            new Shoe() { Style = Style.Loafers, Color = "Czerwony" };
+            new Shoe() { Style = Style.Loafers, Color = "Zielony" };
+            new Shoe() { Style = Style.Sneakers, Color = "Niebieski" };
+
 
         }
     }
